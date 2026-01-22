@@ -2,11 +2,8 @@ import * as THREE from "three";
 import Clock from "../utils/Clock";
 import Loader from "../utils/Loader";
 
-import vertexShader from "../shaders/demo.vert";
-import fragmentShader from "../shaders/demo.frag";
-import { FontLoader, TextGeometry } from "three-stdlib";
+import { TextGeometry } from "three-stdlib";
 import { random } from "../utils/helpers";
-import { BufferGeometryUtils } from "three/examples/jsm/Addons.js";
 
 class Scene {
   scene: THREE.Scene;
